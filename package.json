@@ -1,0 +1,19 @@
+{
+  "name": "elm-dojo-template",
+  "version": "0.0.1",
+  "description": "Template for coding dojos using the Elm Programming Language.",
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "start": "run-pty % npm run start:elm % npm run start:http",
+    "start:elm": "elm-watch hot",
+    "start:http": "serve public"
+  },
+  "author": "Georges Boris",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "elm-tooling": "^1.14.1",
+    "elm-watch": "^1.2.0-beta.3",
+    "run-pty": "^4.0.4",
+    "serve": "^14.2.1"
+  }
+}
